@@ -1,0 +1,4 @@
+Strategy,Trainable_Params_Phase1,Trainable_Params_Phase2,Accuracy,Precision,Recall,F1_Score,MCC,Train_Val_Gap
+No Fine-Tuning (Frozen),"525,058","525,058 (no change)",89.05%,89.40%,89.05%,88.98%,0.7828,3.63%
+Fine-Tune Last 2 Layers,"525,058","525,058",89.05%,89.21%,89.05%,89.01%,0.7811,3.09%
+Fine-Tune Last 30 Layers,"525,058","5,681,090",91.97%,91.99%,91.97%,91.97%,0.8390,8.58%

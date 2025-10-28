@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Models and Large Files
+*.keras
+*.h5
+*.pth
+*.pt
+*.pkl
+*.model
+best_model*.pth
+*.weights
+
+# Results (optional - include CSVs but exclude large model files)
+results*/models/
+results*/plots/*.png
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+
+# Dataset (exclude actual images but keep structure)
+dataset/BM/
+dataset/FM/
+dataset/augmented data/
+
+# Logs
+*.log
+*.out
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+
+# Results CSV files (we want to keep these)
+!results*.csv
+!*.csv
+
+# Charts (we might want to keep some)
+!data_distribution_charts/
+

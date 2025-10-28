@@ -1,0 +1,2 @@
+Experiment,Dataset,Total_Images,Accuracy,Precision,Recall,F1_Score,MCC,AUC,Train_Val_Gap,Overfitting,Trainable_Params_Phase1,Trainable_Params_Phase2
+InceptionV3 - Augmented - Fine-Tune Last 30 Layers,Augmented,2052,94.66%,94.75%,94.66%,94.65%,0.8934,0.983,3.66%,No,"525,058","5,681,090"

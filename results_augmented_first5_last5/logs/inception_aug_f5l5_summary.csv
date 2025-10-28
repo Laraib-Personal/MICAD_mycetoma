@@ -1,0 +1,2 @@
+Experiment,Dataset,Total_Images,Accuracy,Precision,Recall,F1_Score,MCC,Train_Val_Gap,Overfitting,Trainable_Params_Phase1,Trainable_Params_Phase2
+InceptionV3 - Augmented - Fine-Tune First5+Last5,Original + Augmented,2052,88.83%,88.89%,88.83%,88.81%,0.7758,-4.63%,No,"525,058","535,170"

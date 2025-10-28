@@ -1,0 +1,5 @@
+Experiment,Accuracy,Precision,Recall,F1_Score,MCC,Train_Val_Gap,Trainable_Params,Status
+Fine-Tune 30 Layers,91.97%,91.99%,91.97%,91.97%,0.8390,8.58%,"5.68M","Best Performance"
+No Fine-Tuning (Frozen),89.05%,89.40%,89.05%,88.98%,0.7828,3.63%,"525K","Best Stability"
+Fine-Tune 2 Layers,89.05%,89.21%,89.05%,89.01%,0.7811,3.09%,"525K","No Improvement"
+Earlier Baseline,83.94%,84.29%,83.94%,83.83%,0.6797,9.34%,"N/A","Initial Experiment"

@@ -1,0 +1,5 @@
+Rank,Experiment,Dataset,Total_Images,Train_Size,Val_Size,Accuracy,Precision,Recall,F1_Score,MCC,Trainable_Params_Phase1,Trainable_Params_Phase2,Train_Val_Gap,Overfitting,Timestamp,Notes
+1,InceptionV3 - Fine-Tune Last 30 Layers,Original Only,684,547,137,91.97%,91.99%,91.97%,91.97%,0.8390,"525,058","5,681,090",8.58%,No,2025-10-27,Best performance - Optimal fine-tuning strategy
+2,InceptionV3 - No Fine-Tuning (Frozen),Original Only,684,547,137,89.05%,89.40%,89.05%,88.98%,0.7828,"525,058","525,058 (no change)",3.63%,No (Excellent),2025-10-27,Best generalization - Lowest train-val gap
+3,InceptionV3 - Fine-Tune Last 2 Layers,Original Only,684,547,137,89.05%,89.21%,89.05%,89.01%,0.7811,"525,058","525,058",3.09%,No (Excellent),2025-10-27,Same as frozen - 2 layers insufficient for improvement
+4,InceptionV3 (Local - Earlier Experiment),Original Only,684,547,137,83.94%,84.29%,83.94%,83.83%,0.6797,N/A,N/A,9.34%,No,2025-10-27 10:48,Initial baseline - Less optimized hyperparameters

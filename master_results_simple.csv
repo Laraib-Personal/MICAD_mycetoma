@@ -1,0 +1,7 @@
+Rank,Experiment,Dataset,Total_Images,Layers_Unfrozen,Accuracy,Precision,Recall,F1_Score,MCC,Train_Val_Gap,Status
+1,InceptionV3 - Augmented - Fine-Tune Last 30 Layers,Augmented (Original + Generated),2052,30,94.66%,94.75%,94.66%,94.65%,0.8934,3.66%,Complete
+2,InceptionV3 - Fine-Tune Last 30 Layers,Original Only,684,30,91.97%,91.99%,91.97%,91.97%,0.839,8.58%,Complete
+3,InceptionV3 - Fine-Tune Last 2 Layers,Original Only,684,2,89.05%,89.21%,89.05%,89.01%,0.7811,3.09%,Complete
+4,InceptionV3 - No Fine-Tuning (Frozen),Original Only,684,0,89.05%,89.40%,89.05%,88.98%,0.7828,3.63%,Complete
+5,InceptionV3 - Augmented - Fine-Tune First5+Last5,Augmented (Original + Generated),2052,10,88.83%,88.89%,88.83%,88.81%,0.7758,-4.63%,Partial
+6,InceptionV3 - Baseline (Early),Original Only,684,0,83.94%,84.29%,83.94%,83.82%,0.6797,9.34%,Complete

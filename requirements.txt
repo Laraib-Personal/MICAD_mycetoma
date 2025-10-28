@@ -1,0 +1,33 @@
+# Requirements for Local Training
+# Install with: pip install -r requirements.txt
+
+# IMPORTANT: Install numpy and scipy FIRST (needed by TensorFlow and others)
+
+# 1. Core Scientific Computing (install FIRST)
+numpy>=1.24.0
+scipy>=1.11.0
+
+# 2. Deep Learning Framework
+tensorflow>=2.13.0
+
+# 3. Machine Learning & Data
+pandas>=2.0.0
+scikit-learn>=1.3.0
+
+# 4. Image Processing (PIL for loading images)
+Pillow>=10.0.0
+
+# 5. Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Optional: For Jupyter notebooks
+# jupyter>=1.0.0
+# notebook>=7.0.0
+
+# Optional: For Radiomics (only if using Radiomics_Final.ipynb)
+# Requires C++ Build Tools on Windows or use conda:
+#   conda install -c conda-forge pyradiomics
+# SimpleITK>=2.3.0
+# PyWavelets>=1.4.0
+# pyradiomics>=3.0.1
