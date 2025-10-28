@@ -1,0 +1,67 @@
+{
+  "experiment": "InceptionV3_Augmented_FineTuneFirst5Last5",
+  "dataset": "Augmented Data (includes original + augmented)",
+  "timestamp": "2025-10-27T16:56:47.956204",
+  "dataset_info": {
+    "total_images": 2052,
+    "bm_total": 960,
+    "fm_total": 1092,
+    "train_size": 1641,
+    "val_size": 205,
+    "test_size": 206,
+    "note": "Augmented folder contains both original and augmented images"
+  },
+  "hyperparameters": {
+    "image_size": 256,
+    "batch_size": 16,
+    "initial_epochs": 50,
+    "finetune_epochs": 50,
+    "learning_rate": 0.0001,
+    "finetune_lr": 1e-05,
+    "dropout": 0.6,
+    "l2_reg": 0.001,
+    "fine_tuned_layers": "First 5 + Last 5 (10 total)"
+  },
+  "trainable_parameters": {
+    "phase1": 525058,
+    "phase2": 535170
+  },
+  "test_metrics": {
+    "accuracy": 0.8883495145631068,
+    "precision": 0.888903835716837,
+    "recall": 0.8883495145631068,
+    "f1_score": 0.888097421963784,
+    "mcc": 0.775846207714064
+  },
+  "per_class_metrics": {
+    "BM": {
+      "precision": 0.9010989010989011,
+      "recall": 0.8541666666666666,
+      "f1_score": 0.8770053475935828,
+      "support": 96
+    },
+    "FM": {
+      "precision": 0.8782608695652174,
+      "recall": 0.9181818181818182,
+      "f1_score": 0.8977777777777778,
+      "support": 110
+    }
+  },
+  "overfitting_analysis": {
+    "final_train_accuracy": 0.8756855726242065,
+    "final_val_accuracy": 0.9219512343406677,
+    "test_accuracy": 0.8883495145631068,
+    "train_val_gap": -4.626566171646118,
+    "overfitting_detected": false
+  },
+  "confusion_matrix": [
+    [
+      82,
+      14
+    ],
+    [
+      9,
+      101
+    ]
+  ]
+}
