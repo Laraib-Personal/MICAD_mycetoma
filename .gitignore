@@ -38,16 +38,9 @@ best_model*.pth
 # Results (optional - include CSVs but exclude large model files)
 results*/models/
 results*/plots/*.png
-*.png
-*.jpg
-*.jpeg
-*.tif
-*.tiff
 
-# Dataset (exclude actual images but keep structure)
-dataset/BM/
-dataset/FM/
-dataset/augmented data/
+# Dataset images - Tracked with Git LFS (efficient storage)
+# Note: dataset/**/*.jpg, *.jpeg, *.tif, *.tiff are tracked via .gitattributes
 
 # Logs
 *.log
