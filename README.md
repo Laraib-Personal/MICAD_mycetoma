@@ -9,7 +9,6 @@ This project implements a comprehensive deep learning framework for classifying 
 3. **Multimodal Learning** - Vision Transformers (DeiT) + Medical Language Models (PubMedBERT)
 4. **Radiomics** - Handcrafted feature extraction + ML classifiers
 
-**Best Performance:** Up to **97.81% validation accuracy** (Multimodal approach)
 
 ---
 
